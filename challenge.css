@@ -1,0 +1,116 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    align-items: center;
+    justify-content: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+body{
+    background-color: #e6eff6;
+    font-size: 20px;
+}
+h1{
+    color:#4abebd;
+    padding: 10px 0 20px 0;
+}
+.r{
+    opacity: 0.6;
+}
+.b1{
+    color: #bdce66;
+    font-size: 30px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: 200px 200px;
+    border-radius: 5px 5px 5px 5px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+}
+.bod-1{
+    background-color: white;
+   height: 100%;
+   grid-column-start: 1;
+   grid-column-end: 3;
+   border-radius: 25px 25px 0px 0px;
+   padding: 20px;
+    margin-bottom: 65px;
+}
+.bod-2{
+    color: white;
+    background-color: #2bb3b1;
+    grid-row-start: 1;
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    height: 100%;
+    border-radius: 0px 0px 0px 25px;
+    padding: 25px 25px 30px 25px;
+}
+.bod-3{
+    color: white;
+    background-color: #4abebd;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-start: 2;
+    height: 100%;
+    border-radius: 0px 0px 25px 0px;
+    padding: 25px 25px 30px 25px;
+}
+button{
+    width: 80%;
+    height: 50px;
+    border: none;
+    color: white;
+    margin: 20px  0 0 35px;
+    background-color: #bfdf32;
+    border-radius: 5px;
+    font-size: larger; 
+    box-shadow: -3px 5px 15px rgb(111, 111, 111);
+}
+.button:hover {background-color: #d5ff19}
+
+.button:active {
+  background-color: #97af2a;
+  transform: translateY(4px);
+}
+@media screen and (max-width: 415px) {
+   *{
+       padding: 0%;
+       margin: 0%;
+       box-sizing: border-box;
+       font-size: 0.899rem;
+   }
+   h1{font-size: 1.3rem;
+       padding: 10px 0 20px 0;
+   }
+   .b1{
+       font-size: 20px;
+   }
+    .grid-container{
+       display: inline;
+   }
+   .bod-1{
+       margin-top: 50px;
+       margin-bottom: 0px;
+       margin-left: 10%;
+       margin-right: 10%;
+       border-radius: 5px 5px 0 0;
+   }
+   .bod-2{
+       border-radius: 0;
+       margin-left: 10%;
+       margin-right: 10%;
+   }
+   .bod-3{
+       margin-bottom: 50px;
+       border-radius: 0;
+       margin-left: 10%;
+       margin-right: 10%;
+       border-radius: 0 0 5px 5px;
+   }
+  }
