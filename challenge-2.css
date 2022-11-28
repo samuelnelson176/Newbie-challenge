@@ -1,0 +1,92 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+b{
+    margin-top: 30px;
+}
+.intro, b{
+    font-size: 30px;
+    text-align: center;
+    margin: 50px 0;
+}
+.bod1{
+    font-size: 18px;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 15px;
+    width: 500px;
+    
+}
+#card{
+    width: 320px;
+    box-shadow: 0px 5px 10px rgb(78, 69, 157);
+    height: auto;
+    border-radius: 5px 5px 5px 5px;
+    font-size: 25px;
+    padding: 0 20px;
+}
+#card img{
+    padding-left: 220px;
+}
+.card-1{
+    margin: 50px 39% -100px 38%;
+}
+.card-2{
+    margin: 50px 0px 50px 220px;
+}
+.card-3{
+    margin: -100px 39% 50px 38%;
+}.card-4{
+    margin: -341px 00px 0px 61.5%;
+}
+@media screen and (max-width: 415px){
+    .card-1{
+        margin: 25px 0 25px 10%;
+    }
+    .card-2{
+        margin: 25px 0 25px 10%;
+    }
+    .card-3{
+        margin: 25px 20% 25px 10%;
+    }
+    .card-4{
+        margin: 25px 0 50px 10%;
+    }
+    .bod1{
+        margin: 0px 10%;
+        width:fit-content;
+        font-size: 13px;
+    }
+    .intro, b{
+        font-size: 25px;
+        text-align: center;
+        margin: 50px 0;
+    }
+
+} 
+@media (min-width: 768px) and (max-width: 1025px) {
+    .card-2{
+        margin-top: 120px;
+        justify-content: center;
+    }
+    .card-3{
+        margin-top: -25px;
+    }
+    .card-4{
+        margin: -416px 0 0 580px;
+    }
+    .intro, b{
+        font-size: 28px;
+        text-align: center;
+        margin: 50px 0;
+    }
+    .bod1{
+        margin: 0px 30%;
+        width:fit-content;
+        font-size: 15px;
+    }
+}
